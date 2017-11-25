@@ -31,4 +31,5 @@ docker-compose logs -f
 
 ## SEE
 * [wordpress](http://localhost:8000/)
+* [phpmyadmin](http://localhost:9010/)
 * [mailhog](http://localhost:8025/)

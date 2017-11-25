@@ -5,6 +5,7 @@ WORDPRESS WITH DOCKER FOR DEV
 
 ### WORDPRESS
 * Place your wordpress into .html/
+* or Place your wordpress git repository into ./
 
 ### DATA
 * Place /var/lib/mysql into ./.data/db/, if you already have data
@@ -24,6 +25,9 @@ watch docker ps -a
 ```
 docker-compose logs -f
 ```
+
+## If have trouble access localhost
+* delete cache from browser
 
 ## SEE
 * [wordpress](http://localhost:8000/)

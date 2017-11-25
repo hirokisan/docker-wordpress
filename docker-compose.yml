@@ -21,6 +21,7 @@ services:
       context: ./wordpress
     volumes:
       - "./.html:/var/www/html"
+      - "./${WORDPRESS_GIT_REPO}/wp-content:/var/www/html/wp-content"
     ports:
       - "${WORDPRESS_PORT}:80"
     restart: always
